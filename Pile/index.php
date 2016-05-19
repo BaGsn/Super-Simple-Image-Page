@@ -68,7 +68,7 @@ while(false !== ($fichier = readdir($dossier)))
 ?>
 
 <?php
-if($fichier != 'index.php' && $fichier != 'style.css' && $fichier != '.' && $fichier != '..')
+if($fichier != 'index.php' && $fichier != 'style.css' && $fichier != '.' && $fichier != '..' && $fichier != '.DS_Store')
 {
 ?>
 
